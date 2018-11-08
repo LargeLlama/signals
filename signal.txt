@@ -1,1 +1,0 @@
-Program exited due to SIGINT (2)

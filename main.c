@@ -9,7 +9,7 @@ void sighandler(int sig)
 {
 	if (sig == SIGINT)
 	{
-		int file = open("signal.txt", O_WRONLY | O_CREAT, 0666);
+		int file = open("catch.txt", O_WRONLY | O_CREAT , 0666);
 		
 		if (file < 0) 
 		{
